@@ -240,7 +240,7 @@ const db = getFirestore(app);// Setup Provider Google
 
         // FUNGSI LOGIN GOOGLE
         window.loginWithGoogle = async () => {
-            try {
+            alert("LOGIN REDIRECT AKTIF") ;
                 await signInWithRedirect(auth, provider);
             } catch (error) {
                 console.error("Error login Google:", error);
